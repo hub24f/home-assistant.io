@@ -118,7 +118,7 @@ Sensors available in the library:
 | frequency  | Hz | Grid frequency. |
 | voltage_l1 | V | Voltage for phase 1. |
 | voltage_l2 | V | Voltage for phase 2. |
-| voltage_l2 | V | Voltage for phase 3. |
+| voltage_l3 | V | Voltage for phase 3. |
 | status     |  | Status of the solar plant. |
 
 The SMA WebConnect module supports a wide variety of sensors, and not all these have been mapped in the `pysma` library. Custom sensors can be defined by using the `custom` section of the configuration. You will need: A sensor name (no spaces), the SMA sensor key and the unit.
